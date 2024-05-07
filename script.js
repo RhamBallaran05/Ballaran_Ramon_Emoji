@@ -5,7 +5,7 @@ function toggleImageAndColor() {
     if (imageElement.src.includes('sad.gif')) {
         imageElement.src = './smile.gif';
     } else {
-        imageElement.src = './sad.gif';
+        imageElement.src = './Sad.gif';
     }
     
     if (bodyElement.classList.contains('bg-green')) {
