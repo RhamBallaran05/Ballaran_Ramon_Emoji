@@ -2,7 +2,7 @@ function toggleImageAndColor() {
     var imageElement = document.getElementById('emojiImage');
     var bodyElement = document.body;
     
-    if (imageElement.src.includes('sad.gif')) {
+    if (imageElement.src.includes('Sad.gif')) {
         imageElement.src = './smile.gif';
     } else {
         imageElement.src = './Sad.gif';
